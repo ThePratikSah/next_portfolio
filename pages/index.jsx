@@ -14,18 +14,18 @@ export default function Home() {
       <Title>Thanks for your visit.</Title>
 
       <Para>
-        Pratik is a software developer currently based in Indore, India. With
+        Pratik is a software developer currently based in Banglore, India. With
         over 3 years of experience in Web development and building mobile apps
         for businesses to grow.
       </Para>
 
       <Para>
-      Currently, he is working with the creative folks at deqode.
-      He shares his experience in web-dev, and Jamstack on his blog, Learn Syntax.
+      Currently, he is working with the creative folks at <Href><a href={"https://www.indegene.com/"} target={"_blank"} rel="noopener noreferrer">Indegene</a></Href>.
+      He shares his experience in web-dev, and Jamstack on his blog, <Href><a href={"https://learnsyntax.com/"} target={"_blank"} rel="noopener noreferrer">Learn Syntax</a></Href>.
       </Para>
 
       <Para>
-      Outside of his work, Pratik enjoys playing video games, singing, and watching football. He even started learning Piano.
+      Outside of his work, Pratik enjoys playing video games, singing, and watching football. You can connect with him on <Href><a href={"https://www.linkedin.com/in/pratiksah"} target={"_blank"} rel="noopener noreferrer">LinkedIn</a></Href>, <Href><a href={"https://twitter.com/jspratik"} target={"_blank"} rel="noopener noreferrer">Twitter</a></Href>, and <Href><a href={"https://github.com/ThePratikSah/"} target={"_blank"} rel="noopener noreferrer">Github</a></Href>.
       </Para>
     </Container>
   );
@@ -50,6 +50,29 @@ const Headline = styled.h1`
 const Title = styled.p`
   font-size: 2.2em;
   margin-bottom: 0;
+`;
+
+const Href = styled.span`
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  padding: 0 1px;
+  transition: color ease 0.3s;
+  &:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 5%;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    transition: all ease 0.3s;
+  }
+  &:hover:after {
+    height: 60%;
+  }
 `;
 
 const Para = styled.p`
