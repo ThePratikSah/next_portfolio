@@ -20,12 +20,12 @@ export default function Home() {
       </Para>
 
       <Para>
-      Currently, he is working with the creative folks at <Href><a href={"https://www.etherealcovenant.com/"} target={"_blank"} rel="noopener noreferrer">ETHEREAL COVENANT</a></Href>.
-      He shares his experience in web-dev, and Jamstack on his blog, <Href><a href={"https://learnsyntax.com/"} target={"_blank"} rel="noopener noreferrer">Learn Syntax</a></Href>.
+      Currently, he is working with the creative folks at <Href><A href={"https://www.etherealcovenant.com/"} target={"_blank"} rel="noopener noreferrer">ETHEREAL COVENANT</A></Href>.
+      He shares his experience in web-dev, and Jamstack on his blog, <Href><A href={"https://learnsyntax.com/"} target={"_blank"} rel="noopener noreferrer">Learn Syntax</A></Href>.
       </Para>
 
       <Para>
-      Outside of his work, Pratik enjoys playing video games, singing, and watching football. You can connect with him on <Href><a href={"https://www.linkedin.com/in/pratiksah"} target={"_blank"} rel="noopener noreferrer">LinkedIn</a></Href>, <Href><a href={"https://twitter.com/jspratik"} target={"_blank"} rel="noopener noreferrer">Twitter</a></Href>, and <Href><a href={"https://github.com/ThePratikSah/"} target={"_blank"} rel="noopener noreferrer">Github</a></Href>.
+      Outside of his work, Pratik enjoys playing video games, singing, and watching football. You can connect with him on <Href><A href={"https://www.linkedin.com/in/pratiksah"} target={"_blank"} rel="noopener noreferrer">LinkedIn</A></Href>, <Href><A href={"https://twitter.com/jspratik"} target={"_blank"} rel="noopener noreferrer">Twitter</A></Href>, and <Href><A href={"https://github.com/ThePratikSah/"} target={"_blank"} rel="noopener noreferrer">Github</A></Href>.
       </Para>
     </Container>
   );
@@ -50,6 +50,10 @@ const Headline = styled.h1`
 const Title = styled.p`
   font-size: 2.2em;
   margin-bottom: 0;
+`;
+
+const A = styled.a`
+  text-decoration: none;
 `;
 
 const Href = styled.span`
