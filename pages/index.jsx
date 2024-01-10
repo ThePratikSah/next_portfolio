@@ -15,12 +15,12 @@ export default function Home() {
 
       <Para>
         Pratik is a software developer currently based in Banglore, India. With
-        over 3 years of experience in Web development and building mobile apps
+        over 4.5 years of experience in Web development and building mobile apps
         for businesses to grow.
       </Para>
 
       <Para>
-      Currently, he is working with the creative folks at <Href><A href={"https://www.etherealcovenant.com/"} target={"_blank"} rel="noopener noreferrer">Ethereal Covenant</A></Href>.
+      Currently, he is working with the creative folks at <Href><A href={"https://altysys.com/"} target={"_blank"} rel="noopener noreferrer">Altysys</A></Href>.
       He shares his experience in web-dev, and Jamstack on his blog, <Href><A href={"https://learnsyntax.com/"} target={"_blank"} rel="noopener noreferrer">Learn Syntax</A></Href>.
       </Para>
 
