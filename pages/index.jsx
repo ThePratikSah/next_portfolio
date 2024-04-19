@@ -20,7 +20,7 @@ export default function Home() {
       </Para>
 
       <Para>
-      Currently, he is working with the creative folks at <Href><A href={"https://altysys.com/"} target={"_blank"} rel="noopener noreferrer">Altysys</A></Href>.
+      Currently, he is working with the creative folks at <Href><A href={"https://razorpay.com/"} target={"_blank"} rel="noopener noreferrer">Razorpay</A></Href>.
       He shares his experience in web-dev, and Jamstack on his blog, <Href><A href={"https://learnsyntax.com/"} target={"_blank"} rel="noopener noreferrer">Learn Syntax</A></Href>.
       </Para>
 
